@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13433869321",
+    "firebase_url": "https://planzma-99e9e.firebaseio.com",
+    "project_id": "planzma-99e9e",
+    "storage_bucket": "planzma-99e9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13433869321:android:07c005c6ef3408b968d4d8",
+        "android_client_info": {
+          "package_name": "com.example.planzma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13433869321-7fsmmletg9t2lf9cj0sqva2mib81moqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwnY-OH4IEKoksAHTJuL3oLJiDviDgWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13433869321-7fsmmletg9t2lf9cj0sqva2mib81moqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

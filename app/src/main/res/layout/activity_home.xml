@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHome"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@+id/toolbarHome"
+        android:layout_above="@+id/tabs"
+        android:id="@+id/viewPagerHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_below="@+id/toolbarHome"
+        android:layout_above="@+id/navigationView"
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:ignore="UnknownId" />
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/navigationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:itemBackground="@color/colorPrimary"-->
+<!--        app:itemIconTint="@android:color/white"-->
+<!--        app:itemTextColor="@android:color/white"-->
+<!--        app:menu="@menu/navigation" />-->
+
+    <com.google.android.material.tabs.TabLayout
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       >
+
+    <com.google.android.material.tabs.TabItem
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        android:text="Home"
+        android:icon="@drawable/ic_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.tabs.TabItem
+        android:text="Chat"
+        android:icon="@drawable/ic_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.tabs.TabItem
+        android:text="location"
+        android:icon="@drawable/ic_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.tabs.TabItem
+        android:text="Profile"
+        android:icon="@drawable/ic_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.google.android.material.tabs.TabLayout>
+
+
+
+</RelativeLayout>

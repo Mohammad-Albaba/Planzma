@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/a"
+tools:context=".Register">
+<ImageView
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_gravity="center"
+    android:layout_width="186dp"
+    android:layout_height="60dp"
+    android:id="@+id/imgplanzam"
+    android:background="@drawable/b"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="120dp"
+    />
+<TextView
+    app:layout_constraintTop_toTopOf="parent"
+    android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="225dp"
+    android:layout_height="17dp"
+    android:id="@+id/textplanzam"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="200dp"
+    android:text="Go out with people Make new friends"
+    android:textSize="12dp"
+
+    />
+
+<Button
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_gravity="center"
+    android:id="@+id/btnSignup"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginTop="450dp"
+    android:background="@drawable/shapregister"
+    android:gravity="center"
+    android:padding="10dp"
+    android:text="Sign up"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#C80000"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+
+    />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/shapregister2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="log in"
+        android:textColor="#F8F2F5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
